@@ -24,6 +24,10 @@ h1, h2, h3, h4, h5, h6 {
 .bebas-thin{
     font-family: 'bebas_neuethin';
 }
+.font-weight-100{
+    font-family:Helvetica Neue, sans-serif;
+    font-weight: 100;
+}
 
 .display-3 {
     font-size: 3.5rem;
@@ -39,6 +43,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar.navbar-light .navbar-toggler, .navbar.navbar-light form .md-form .form-control {
     color: #d3a354;
+}
+ .navbar.navbar-light .navbar-nav .nav-item .nav-link:hover {
+    color: #d3a354;
+    opacity: 0.75;
 }
 
 /*Estilos del menu*/
@@ -118,6 +126,9 @@ h1, h2, h3, h4, h5, h6 {
 .brown-color{
     color: var(--colorBrown);
 }
+.brown-color2{
+    color: #736e62!important;
+}
 .pink-color{
     color: #bd6867!important;
 }
@@ -125,19 +136,34 @@ h1, h2, h3, h4, h5, h6 {
     color: #5d393e!important;
 }
 .purple-color{
-    color:#804188!important;
+    color:#943c90!important;
+}
+.purple-color2{
+    color: #4c2d52;
 }
 .green-color {
-    color: #7ebc42;
+    color: #59b169!important;
+}
+.deeppurple-color{
+    color: #5a4494!important;
+}
+.deeppurple-color2{
+    color: #756bae!important;
+}
+.green-color2{
+    color: #3d815c!important;
 }
 .orange-color {
     color: #f26522;
 }
 .blue-color {
-    color: #3179a3;
+    color: #5770b5!important;
+}
+.blue-color2{
+    color: #343e5d!important;
 }
 .aqua-color{
-    color: #015758;
+    color: #63b2bc!important;
 }
 .gold-color{
     color: #ffd15c;
@@ -349,4 +375,27 @@ clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
 
 #rw-consejo {
     transform-origin: 50% 50%;
+}
+
+.border{
+    border: solid 2px #943c90!important;
+}
+
+
+.rotate {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 50% 50%;
+}
+#planeta-lala{
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+}
+
+#energia {
+    background-image: url(../img/planeta/conexion.png);
+    background-position: 90% 0%;
+    background-repeat: no-repeat;
 }

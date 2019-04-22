@@ -1,0 +1,21 @@
+.border-bottom{
+    border-bottom: 2px solid #5a4494!important;
+}
+.border-top{
+    border-top: 2px solid #5a4494!important;
+}
+.border-left{
+    border-color: #5a4494!important;
+}
+.border-right{
+    border-color: #5a4494!important;
+}
+.border-left-bold{
+    border-left: 8px solid #7b69ab!important;
+}
+.border-right-bold{
+    border-right: 8px solid #7b69ab!important;
+}
+#salud {
+    background-color: #261e47;
+}
