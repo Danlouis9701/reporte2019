@@ -2,7 +2,7 @@
     --colorBrown:#c39e5f;
 }
 html{
-    font-size: 12px;
+    font-size: 10px;
 }
 body{
     font-family: 'helvetica';
@@ -12,7 +12,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'bebas_neuebold';
     letter-spacing: 2px;
 }
-
 .bebas-bold{
     font-family: 'bebas_neuebold';
 }
@@ -383,9 +382,11 @@ clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
 
 
 .rotate {
+/*
     position: absolute;
     top: 50%;
     left: 50%;
+*/
     transform-origin: 50% 50%;
 }
 #planeta-lala{
@@ -398,4 +399,9 @@ clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
     background-image: url(../img/planeta/conexion.png);
     background-position: 90% 0%;
     background-repeat: no-repeat;
+    background-size: 20%;
+}
+
+.font-sm {
+    font-size: 1.1rem!important;
 }
