@@ -357,14 +357,25 @@ header{
 }
 
 #scaleGrafica {
-transform-origin: 50% 100%;
-  transform:scaleY(0);
+    -webkit-transform-origin: 50% 100%;
+    -moz-transform-origin: 50% 100%;
+    -ms-transform-origin: 50% 100%;
+    -o-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transform:scaleY(0);
+    -moz-transform:scaleY(0);
+    -ms-transform:scaleY(0);
+    -o-transform:scaleY(0);
+    transform:scaleY(0);
 }
 
 #rec {
     position: relative;
-  -webkit-clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
-clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    -webkit-clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    -moz-clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    -ms-clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    -o-clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
 }
 
 .bg-valores {
@@ -373,6 +384,10 @@ clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
 }
 
 #rw-consejo {
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
 }
 
@@ -382,11 +397,10 @@ clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
 
 
 .rotate {
-/*
-    position: absolute;
-    top: 50%;
-    left: 50%;
-*/
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
 }
 #planeta-lala{
