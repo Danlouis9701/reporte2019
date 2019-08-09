@@ -9,7 +9,7 @@ var pushbar = new Pushbar({
 pushbar.close();
 
 $(window).on("load", function () {
-    setTimeout('delay()', 2500);
+    setTimeout('delay()', 3000);
 });
 
 function delay() {
