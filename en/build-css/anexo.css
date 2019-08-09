@@ -1,0 +1,18 @@
+.border-bottom{
+    border-bottom: 2px solid #c39e5f!important;
+}
+.border-top{
+    border-top: 2px solid #c39e5f!important;
+}
+.border-left{
+    border-color: #c39e5f!important;
+}
+.border-right{
+    border-color: #c39e5f!important;
+}
+.border-left-bold{
+    border-left: 8px solid #c39e5f!important;
+}
+.border-right-bold{
+    border-right: 8px solid #c39e5f!important;
+}

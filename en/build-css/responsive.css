@@ -1,0 +1,81 @@
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    html {
+        font-size: 13px;
+    }
+    #planeta-lala{
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+    }
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+
+    .display-3 {
+        font-size: 4.5rem;
+    }
+
+    .display-4 {
+        font-size: 3.5rem;
+    }
+
+    .bg-image {
+        background-image: url(../img/home/different-T.jpg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+    }
+    #planeta-lala{
+        margin: 0 auto;
+        width: 500px;
+        height: 500px;
+    }
+    .font-sm {
+    font-size: 2rem!important;
+    }
+    #energia {
+    background-size:20%;
+    }
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    html {
+        font-size: 15px;
+    }
+
+    .navbar.navbar-light .navbar-nav .nav-item .nav-link{
+        font-size: 0.90rem;
+    }
+
+    .altura-min {
+        min-height: 450px;
+    }
+
+    .bg-image {
+        background-image: url(../img/rec2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    #planeta-lala{
+        margin: 0 auto;
+        width: 600px;
+        height: 600px;
+    }
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    html {
+        font-size: 16px;
+    }
+    .navbar.navbar-light .navbar-nav .nav-item .nav-link{
+        font-size: 1rem;
+    }
+}
